@@ -1,0 +1,9 @@
+import unittest 
+
+class TestMonProgramme(unittest.TestCase) : 
+  def test(self,cd) : 
+    self.assertFalse(len(code) < 10 or len(cd) > 25)
+    self.assertFalse(n.isdigit() for n in cd == False)
+    self.assertFalse(set('[~!@#$%^&*()_+{}":;\']+$').intersection(cd) == "")
+    self.assertFalse(ele.isupper() for ele in cd == False)
+    self.assertFalse(cd.isupper() == True)
